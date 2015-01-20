@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 var arrayfun = require ('../arrayfun'); 
 
 
@@ -38,3 +39,7 @@ describe("arrayfun", function() {
   });
 
 });
+=======
+# arrayFun
+Array exercises with DevLeague
+>>>>>>> bdd42fc371a0b6de595044f805e6b4e90fe02b4c
