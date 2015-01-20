@@ -13,20 +13,27 @@ describe("arrayfun", function() {
 
   it("first() function must return a new array filled with the first n elements of the first argument (array)", function() {
 
-    var test_array = [ 'a', 'b', 'c'];
+    var test_array = [ 1, 2, 3, 4];
 
     var result = arrayfun.first( test_array );
 
-    expect( result ).toBe( 'a' );
-
+    expect( result ).toBe( 1 );
+  
 });
 
     it("first() function must return a new array filled with the first n elements of the first argument (array)", function() {
 
-      var test_array = ['a', 'b', 'c' ];
+      var test_array = [ 1, 2, 3, 4];
+
+
 
       var result2 = arrayfun.first( test_array, 2 );
-      expect( result2 ).toEqual(['a','b']);
+      expect( result2 ).toEqual( [1, 2 ]);
+
+      var result3 = arrayfun.first( test_array, 3 );
+      expect( result3 ).toEqual( [1, 2, 3 ]);
+
+
 
   });
 
